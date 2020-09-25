@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook homepage</title>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="imgs/facebook-logo.png" alt="Logo do facebook" class="facebook-logo">
+      <form action="" class="facebook-login">
+        <div class="form-group">
+          <label id="user-email-phone-label" for="" class="user-enter" >Email ou telefone</label>
+          <input id="user-email-phone" type="text" class="user-enter">
+        </div>
+        <div class="form-group">
+          <label id="user-password-label" for="" class="user-enter">Senha</label>
+          <input id="user-password" type="password">
+        </div>
+        <div class="form-control">
+          <button id="button-login" class="button-login">Entrar</button>
+        </div>
+      </form>
+    </div>
+  </header>
+  <section class="main-content">
+    <div class="left-content">
+      <p id="facebook-slogan" class="facebook-slogan"><strong>Facebook ajuda você a se conectar e <br> 
+        compartilhar com as pessoas que fazem parte <br> da sua vida.</strong></p>
+      <img src="imgs/networking.png" alt="facebook-network-people" id="facebook-networking">
+    </div>
+    <div class="right-content ">
+      <h1>Abra uma conta</h1>
+      <p class="quick-easy">É rápido e fácil.</p>
+
+
+
+
+
+
+      <div id="error"></div>
+
+      <form class="forms-register" id="form-register" action="/" method="GET">
+
+        <div class="lado-lado">
+          <input type="text" name="firstname" id="firstname" required class="names" class="firstname" placeholder="Nome">
+        <input type="text" name="lastname" id="lastname" required class="names"  placeholder="Sobrenome">
+      </div>
+        <!--INPUTS DE VALIDATE TESTE-->
+        <input type="text" name="phone_email" id="emailPhone" required class="form" placeholder="Celular ou email">
+        <input type="password" id="password"name="password" required class="form" class="email" placeholder="Nova senha">
+        
+
+
+
+
+
+
+
+        <label id="label-birthdate" class="label-birthdate a" for="">Data de nascimento</label>
+        <input type="date" placeholder="dd/mm/aaaa" class="form" name="birthdate">
+    
+        <label id="label-gender" class="new-account-label a">Gênero</label>
+        <div class="gender">
+          <label class="gender-label"
+            ><input
+              type="radio"
+              name="gender"
+              class="radio"
+              value="Feminino"
+            />Feminino</label
+          >
+          <label class="gender-label"
+            ><input
+              type="radio"
+              name="gender"
+              value="Masculino"
+              class="radio"
+            />Masculino</label
+          >
+          <label class="gender-label"
+            ><input
+              type="radio"
+              name="gender"
+              id="custom"
+              class="radio"
+              value="Personalizado"
+            />Personalizado</label>
+
+            <label class="gender-label"
+            ><input
+              type="text"
+              name="gender-custom"
+              id="custom"
+              class="radio-custom"
+              placeholder="Gênero (opcional)"
+              value="Personalizado"
+            /></label>
+            <p class="accept-terms a">
+              Ao clicar em Cadastre-se, você concorda com nossos
+              <a href="">Termos</a>, <a href="">Política de Dados</a> e
+              <a href="#">Política de Cookies</a>. Você pode receber notificações
+              por SMS e pode cancelar isso quando quiser.
+            </p>
+            <button id="facebook-register" class="facebook-register" type="submit">Cadastre-se</button>
+            <p class="accept-terms a
+            ">
+              <a href="#"><strong> Criar uma Página</strong></a> para uma celebridade, banda ou
+              empresa.
+            </p>
+        </div>
+      
+    </div>
+    </form>
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

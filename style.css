@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(240, 245, 255);
+}
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+}
+.facebook-logo {
+  display: flex;
+  height: 50px;
+}
+.facebook-login {
+  display: flex;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.user-enter {
+  color:white;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.firstname {
+  margin-right: 10px;
+  border-color: antiquewhite;
+}
+.button-login {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(42, 89, 184);
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  font-size: 10px;
+  margin-left: 10px;
+  line-height: 24px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+  align-content: center;
+}
+.names {
+  width: 145px;
+  margin-bottom: 10px;
+  height: 20px;
+  border: 1px solid;
+  border-color: antiquewhite;
+}
+.email {
+  margin-bottom: 10px;
+  border-radius: 10%;
+  border-color: antiquewhite;
+}
+.form {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  border: 1px solid;
+  border-color: antiquewhite;
+}
+.form-control {
+  align-self: flex-end;
+  display: flex;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.left-content {
+  width: 800px;
+}
+.right-content {
+  width: 300px;
+}
+
+.forms-register {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.lado-lado {
+  display: flex;
+  flex-direction: row;
+}
+.facebook-register {
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(78, 150, 11);
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.gender-label {
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.new-account-label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.accept-terms {
+  text-justify: distribute-all-lines;
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.label-birthdate {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.a {
+  color: rgb(92, 92, 92);
+}
+#error {
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  color: blue;
+}
+.radio-custom {
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  border: 1px solid;
+  border-color: antiquewhite;
+  color: rgb(92, 92, 92);
+}
+.button-register {
+  width: 300px;
+  height: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(66, 103, 178);
+  color: white;
+  border-radius: 5px;
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.facebook-slogan {
+  font-size: 20px;
+  color: rgb(7, 33, 85);
+}
